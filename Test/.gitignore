@@ -33,19 +33,31 @@
 
 # CMake directories and files
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
+Testing/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
-
-# CLion / JetBrains IDEs
-.idea/
+_deps/
 cmake-build-*/
 build/
 out/
 
+# CLion / JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
